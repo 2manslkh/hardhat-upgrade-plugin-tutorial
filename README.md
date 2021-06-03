@@ -1,6 +1,14 @@
 # Hardhat Upgrades Plugin Tutorial
 
-This plugin will help to deploy, upgrade and manage proxy contracts and their implementations
+This plugin will help to deploy, upgrade and manage proxy contracts and their implementations.
+
+The plugin currently deploys [TransparentUpgradeableProxy](https://docs.openzeppelin.com/contracts/3.x/api/proxy#TransparentUpgradeableProxy) by OpenZeppelin
+
+Example on BSC Testnet:
+
+TransparentUpgradeableProxy: [https://testnet.bscscan.com/address/0x80D901C1881F4B9d4235b737e43d069703eF3568]
+Implementation: [https://testnet.bscscan.com/address/0xa68018d0843d2b2d65131d300fbb9a6b6e777b95]
+
 
 ## Proxy Pattern
 
