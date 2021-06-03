@@ -24,23 +24,23 @@ Step 2: Start Local Node
 
 Step 3: Deploy Proxy Contract to Local Node
 
-`npx hardhat run ./scripts/create-proxy.js --localhost`
+`npx hardhat run ./scripts/create-proxy.js --network localhost`
 
 Step 4: Call Proxy using web3.js
 
 Modify `PROXY_ADDRESS` in `create-proxy.js` to the address of your deployed proxy contract
 
-`npx hardhat run ./scripts/call-proxy-web3.js --localhost` Should Return 1
+`npx hardhat run ./scripts/call-proxy-web3.js --network localhost` Should Return 1
 
 Step 5: Upgrade Proxy Contract
 
 Modify `PROXY_ADDRESS` in `create-proxy.js` to the address of your deployed proxy contract
 
-`npx hardhat run ./scripts/create-proxy.js --localhost`
+`npx hardhat run ./scripts/create-proxy.js --network localhost`
 
 Step 6: Call Proxy again using web3.js
 
-`npx hardhat run ./scripts/call-proxy-web3.js --localhost` Should Return 2
+`npx hardhat run ./scripts/call-proxy-web3.js --network localhost` Should Return 2
 
 ### Deploying to Testnet (BSC)
 
