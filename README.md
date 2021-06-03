@@ -73,5 +73,7 @@ npx hardhat run ./scripts/upgrade-proxy.js --network localhost
 This folder stores information about the proxy and implementation contracts
 
 Admin Address of Proxy contract: `admin.address`
+
 Proxy Addresses `proxies.[index].address`
+
 Implmentation Addresses `impls.[index].address`
