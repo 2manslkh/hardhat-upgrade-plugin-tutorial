@@ -60,7 +60,7 @@ Modify `PROXY_ADDRESS` in `create-proxy.js` to the address of your deployed prox
 npx hardhat run ./scripts/upgrade-proxy.js --network localhost
 ```
 
-## .openzepplin cache
+## .openzeppelin cache
 
 This folder stores information about the proxy and implementation contracts
 
