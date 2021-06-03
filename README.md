@@ -6,9 +6,8 @@ The plugin currently deploys [TransparentUpgradeableProxy](https://docs.openzepp
 
 Example on BSC Testnet:
 
-TransparentUpgradeableProxy: [https://testnet.bscscan.com/address/0x80D901C1881F4B9d4235b737e43d069703eF3568]
-Implementation: [https://testnet.bscscan.com/address/0xa68018d0843d2b2d65131d300fbb9a6b6e777b95]
-
+TransparentUpgradeableProxy: [https://testnet.bscscan.com/address/0xD286293B27a86B264812745C7e4333a359145b36#code]
+Implementation (LogicOne.sol): [https://testnet.bscscan.com/address/0x562b8fb08a1c6e19232d00798a0c7bb55b559ba5#code]
 
 ## Proxy Pattern
 
